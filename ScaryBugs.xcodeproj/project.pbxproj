@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA2340951957EDA400B9AE08 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = EA2340941957EDA400B9AE08 /* screenshot.png */; };
+		EA2340991957EEA100B9AE08 /* screenshotR.png in Resources */ = {isa = PBXBuildFile; fileRef = EA2340981957EEA100B9AE08 /* screenshotR.png */; };
+		EA23409C1957EF7400B9AE08 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EA23409B1957EF7400B9AE08 /* SVProgressHUD.m */; };
+		EA23409E1957EF9300B9AE08 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA23409D1957EF9300B9AE08 /* QuartzCore.framework */; };
 		EAEA61011957B97700CD87E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEA61001957B97700CD87E3 /* Foundation.framework */; };
 		EAEA61031957B97700CD87E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEA61021957B97700CD87E3 /* CoreGraphics.framework */; };
 		EAEA61051957B97700CD87E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEA61041957B97700CD87E3 /* UIKit.framework */; };
@@ -51,6 +55,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA2340941957EDA400B9AE08 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
+		EA2340981957EEA100B9AE08 /* screenshotR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshotR.png; sourceTree = "<group>"; };
+		EA23409A1957EF7400B9AE08 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		EA23409B1957EF7400B9AE08 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		EA23409D1957EF9300B9AE08 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		EAEA60FD1957B97700CD87E3 /* ScaryBugs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaryBugs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAEA61001957B97700CD87E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EAEA61021957B97700CD87E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -99,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA23409E1957EF9300B9AE08 /* QuartzCore.framework in Frameworks */,
 				EAEA61031957B97700CD87E3 /* CoreGraphics.framework in Frameworks */,
 				EAEA61051957B97700CD87E3 /* UIKit.framework in Frameworks */,
 				EAEA61011957B97700CD87E3 /* Foundation.framework in Frameworks */,
@@ -140,6 +150,7 @@
 		EAEA60FF1957B97700CD87E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EA23409D1957EF9300B9AE08 /* QuartzCore.framework */,
 				EAEA61001957B97700CD87E3 /* Foundation.framework */,
 				EAEA61021957B97700CD87E3 /* CoreGraphics.framework */,
 				EAEA61041957B97700CD87E3 /* UIKit.framework */,
@@ -228,6 +239,8 @@
 		EAEA61501957C0CC00CD87E3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EA23409A1957EF7400B9AE08 /* SVProgressHUD.h */,
+				EA23409B1957EF7400B9AE08 /* SVProgressHUD.m */,
 				EAEA61511957C0EA00CD87E3 /* RWTRateView.h */,
 				EAEA61521957C0EA00CD87E3 /* RWTRateView.m */,
 			);
@@ -246,6 +259,8 @@
 		EAEA61581957C11700CD87E3 /* Art */ = {
 			isa = PBXGroup;
 			children = (
+				EA2340981957EEA100B9AE08 /* screenshotR.png */,
+				EA2340941957EDA400B9AE08 /* screenshot.png */,
 				EAEA615F1957C13500CD87E3 /* logo1.png */,
 				EAEA61591957C12900CD87E3 /* shockedface2_empty.png */,
 				EAEA615A1957C12900CD87E3 /* shockedface2_full.png */,
@@ -331,6 +346,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA2340991957EEA100B9AE08 /* screenshotR.png in Resources */,
 				EAEA611C1957B97700CD87E3 /* Images.xcassets in Resources */,
 				EAEA615C1957C12900CD87E3 /* shockedface2_empty.png in Resources */,
 				EAEA614C1957BF1000CD87E3 /* potatoBug.jpg in Resources */,
@@ -346,6 +362,7 @@
 				EAEA615E1957C12900CD87E3 /* shockedface2_half.png in Resources */,
 				EAEA61601957C13500CD87E3 /* logo1.png in Resources */,
 				EAEA61141957B97700CD87E3 /* Main.storyboard in Resources */,
+				EA2340951957EDA400B9AE08 /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +386,7 @@
 				EAEA61571957C10A00CD87E3 /* RWTUIImageExtras.m in Sources */,
 				EAEA61111957B97700CD87E3 /* RWTAppDelegate.m in Sources */,
 				EAEA613F1957BB3A00CD87E3 /* RWTScaryBugDoc.m in Sources */,
+				EA23409C1957EF7400B9AE08 /* SVProgressHUD.m in Sources */,
 				EAEA610D1957B97700CD87E3 /* main.m in Sources */,
 				EAEA61171957B97700CD87E3 /* RWTMasterViewController.m in Sources */,
 				EAEA611A1957B97700CD87E3 /* RWTDetailViewController.m in Sources */,
@@ -577,6 +595,7 @@
 				EAEA61341957B97700CD87E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAEA61351957B97700CD87E3 /* Build configuration list for PBXNativeTarget "ScaryBugsTests" */ = {
 			isa = XCConfigurationList;
@@ -585,6 +604,7 @@
 				EAEA61371957B97700CD87E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
