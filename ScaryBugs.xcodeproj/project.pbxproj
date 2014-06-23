@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAEA61011957B97700CD87E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEA61001957B97700CD87E3 /* Foundation.framework */; };
+		EAEA61031957B97700CD87E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEA61021957B97700CD87E3 /* CoreGraphics.framework */; };
+		EAEA61051957B97700CD87E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEA61041957B97700CD87E3 /* UIKit.framework */; };
+		EAEA610B1957B97700CD87E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAEA61091957B97700CD87E3 /* InfoPlist.strings */; };
+		EAEA610D1957B97700CD87E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEA610C1957B97700CD87E3 /* main.m */; };
+		EAEA61111957B97700CD87E3 /* RWTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEA61101957B97700CD87E3 /* RWTAppDelegate.m */; };
+		EAEA61141957B97700CD87E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAEA61121957B97700CD87E3 /* Main.storyboard */; };
+		EAEA61171957B97700CD87E3 /* RWTMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEA61161957B97700CD87E3 /* RWTMasterViewController.m */; };
+		EAEA611A1957B97700CD87E3 /* RWTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEA61191957B97700CD87E3 /* RWTDetailViewController.m */; };
+		EAEA611C1957B97700CD87E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAEA611B1957B97700CD87E3 /* Images.xcassets */; };
+		EAEA61231957B97700CD87E3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEA61221957B97700CD87E3 /* XCTest.framework */; };
+		EAEA61241957B97700CD87E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEA61001957B97700CD87E3 /* Foundation.framework */; };
+		EAEA61251957B97700CD87E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEA61041957B97700CD87E3 /* UIKit.framework */; };
+		EAEA612D1957B97700CD87E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAEA612B1957B97700CD87E3 /* InfoPlist.strings */; };
+		EAEA612F1957B97700CD87E3 /* ScaryBugsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEA612E1957B97700CD87E3 /* ScaryBugsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAEA61261957B97700CD87E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAEA60F51957B97700CD87E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAEA60FC1957B97700CD87E3;
+			remoteInfo = ScaryBugs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAEA60FD1957B97700CD87E3 /* ScaryBugs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaryBugs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAEA61001957B97700CD87E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EAEA61021957B97700CD87E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EAEA61041957B97700CD87E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EAEA61081957B97700CD87E3 /* ScaryBugs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScaryBugs-Info.plist"; sourceTree = "<group>"; };
+		EAEA610A1957B97700CD87E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAEA610C1957B97700CD87E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAEA610E1957B97700CD87E3 /* ScaryBugs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScaryBugs-Prefix.pch"; sourceTree = "<group>"; };
+		EAEA610F1957B97700CD87E3 /* RWTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWTAppDelegate.h; sourceTree = "<group>"; };
+		EAEA61101957B97700CD87E3 /* RWTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWTAppDelegate.m; sourceTree = "<group>"; };
+		EAEA61131957B97700CD87E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAEA61151957B97700CD87E3 /* RWTMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWTMasterViewController.h; sourceTree = "<group>"; };
+		EAEA61161957B97700CD87E3 /* RWTMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWTMasterViewController.m; sourceTree = "<group>"; };
+		EAEA61181957B97700CD87E3 /* RWTDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWTDetailViewController.h; sourceTree = "<group>"; };
+		EAEA61191957B97700CD87E3 /* RWTDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWTDetailViewController.m; sourceTree = "<group>"; };
+		EAEA611B1957B97700CD87E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EAEA61211957B97700CD87E3 /* ScaryBugsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaryBugsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAEA61221957B97700CD87E3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EAEA612A1957B97700CD87E3 /* ScaryBugsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScaryBugsTests-Info.plist"; sourceTree = "<group>"; };
+		EAEA612C1957B97700CD87E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAEA612E1957B97700CD87E3 /* ScaryBugsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaryBugsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAEA60FA1957B97700CD87E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEA61031957B97700CD87E3 /* CoreGraphics.framework in Frameworks */,
+				EAEA61051957B97700CD87E3 /* UIKit.framework in Frameworks */,
+				EAEA61011957B97700CD87E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAEA611E1957B97700CD87E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEA61231957B97700CD87E3 /* XCTest.framework in Frameworks */,
+				EAEA61251957B97700CD87E3 /* UIKit.framework in Frameworks */,
+				EAEA61241957B97700CD87E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAEA60F41957B97700CD87E3 = {
+			isa = PBXGroup;
+			children = (
+				EAEA61061957B97700CD87E3 /* ScaryBugs */,
+				EAEA61281957B97700CD87E3 /* ScaryBugsTests */,
+				EAEA60FF1957B97700CD87E3 /* Frameworks */,
+				EAEA60FE1957B97700CD87E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAEA60FE1957B97700CD87E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAEA60FD1957B97700CD87E3 /* ScaryBugs.app */,
+				EAEA61211957B97700CD87E3 /* ScaryBugsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAEA60FF1957B97700CD87E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAEA61001957B97700CD87E3 /* Foundation.framework */,
+				EAEA61021957B97700CD87E3 /* CoreGraphics.framework */,
+				EAEA61041957B97700CD87E3 /* UIKit.framework */,
+				EAEA61221957B97700CD87E3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAEA61061957B97700CD87E3 /* ScaryBugs */ = {
+			isa = PBXGroup;
+			children = (
+				EAEA610F1957B97700CD87E3 /* RWTAppDelegate.h */,
+				EAEA61101957B97700CD87E3 /* RWTAppDelegate.m */,
+				EAEA61121957B97700CD87E3 /* Main.storyboard */,
+				EAEA61151957B97700CD87E3 /* RWTMasterViewController.h */,
+				EAEA61161957B97700CD87E3 /* RWTMasterViewController.m */,
+				EAEA61181957B97700CD87E3 /* RWTDetailViewController.h */,
+				EAEA61191957B97700CD87E3 /* RWTDetailViewController.m */,
+				EAEA611B1957B97700CD87E3 /* Images.xcassets */,
+				EAEA61071957B97700CD87E3 /* Supporting Files */,
+			);
+			path = ScaryBugs;
+			sourceTree = "<group>";
+		};
+		EAEA61071957B97700CD87E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAEA61081957B97700CD87E3 /* ScaryBugs-Info.plist */,
+				EAEA61091957B97700CD87E3 /* InfoPlist.strings */,
+				EAEA610C1957B97700CD87E3 /* main.m */,
+				EAEA610E1957B97700CD87E3 /* ScaryBugs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAEA61281957B97700CD87E3 /* ScaryBugsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAEA612E1957B97700CD87E3 /* ScaryBugsTests.m */,
+				EAEA61291957B97700CD87E3 /* Supporting Files */,
+			);
+			path = ScaryBugsTests;
+			sourceTree = "<group>";
+		};
+		EAEA61291957B97700CD87E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAEA612A1957B97700CD87E3 /* ScaryBugsTests-Info.plist */,
+				EAEA612B1957B97700CD87E3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAEA60FC1957B97700CD87E3 /* ScaryBugs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAEA61321957B97700CD87E3 /* Build configuration list for PBXNativeTarget "ScaryBugs" */;
+			buildPhases = (
+				EAEA60F91957B97700CD87E3 /* Sources */,
+				EAEA60FA1957B97700CD87E3 /* Frameworks */,
+				EAEA60FB1957B97700CD87E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScaryBugs;
+			productName = ScaryBugs;
+			productReference = EAEA60FD1957B97700CD87E3 /* ScaryBugs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAEA61201957B97700CD87E3 /* ScaryBugsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAEA61351957B97700CD87E3 /* Build configuration list for PBXNativeTarget "ScaryBugsTests" */;
+			buildPhases = (
+				EAEA611D1957B97700CD87E3 /* Sources */,
+				EAEA611E1957B97700CD87E3 /* Frameworks */,
+				EAEA611F1957B97700CD87E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAEA61271957B97700CD87E3 /* PBXTargetDependency */,
+			);
+			name = ScaryBugsTests;
+			productName = ScaryBugsTests;
+			productReference = EAEA61211957B97700CD87E3 /* ScaryBugsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAEA60F51957B97700CD87E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RWT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ZeroLinux5;
+				TargetAttributes = {
+					EAEA61201957B97700CD87E3 = {
+						TestTargetID = EAEA60FC1957B97700CD87E3;
+					};
+				};
+			};
+			buildConfigurationList = EAEA60F81957B97700CD87E3 /* Build configuration list for PBXProject "ScaryBugs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAEA60F41957B97700CD87E3;
+			productRefGroup = EAEA60FE1957B97700CD87E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAEA60FC1957B97700CD87E3 /* ScaryBugs */,
+				EAEA61201957B97700CD87E3 /* ScaryBugsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAEA60FB1957B97700CD87E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEA611C1957B97700CD87E3 /* Images.xcassets in Resources */,
+				EAEA610B1957B97700CD87E3 /* InfoPlist.strings in Resources */,
+				EAEA61141957B97700CD87E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAEA611F1957B97700CD87E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEA612D1957B97700CD87E3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAEA60F91957B97700CD87E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEA61111957B97700CD87E3 /* RWTAppDelegate.m in Sources */,
+				EAEA610D1957B97700CD87E3 /* main.m in Sources */,
+				EAEA61171957B97700CD87E3 /* RWTMasterViewController.m in Sources */,
+				EAEA611A1957B97700CD87E3 /* RWTDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAEA611D1957B97700CD87E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEA612F1957B97700CD87E3 /* ScaryBugsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAEA61271957B97700CD87E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAEA60FC1957B97700CD87E3 /* ScaryBugs */;
+			targetProxy = EAEA61261957B97700CD87E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAEA61091957B97700CD87E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAEA610A1957B97700CD87E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EAEA61121957B97700CD87E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAEA61131957B97700CD87E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAEA612B1957B97700CD87E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAEA612C1957B97700CD87E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAEA61301957B97700CD87E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAEA61311957B97700CD87E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAEA61331957B97700CD87E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScaryBugs/ScaryBugs-Prefix.pch";
+				INFOPLIST_FILE = "ScaryBugs/ScaryBugs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EAEA61341957B97700CD87E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScaryBugs/ScaryBugs-Prefix.pch";
+				INFOPLIST_FILE = "ScaryBugs/ScaryBugs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EAEA61361957B97700CD87E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ScaryBugs.app/ScaryBugs";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScaryBugs/ScaryBugs-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ScaryBugsTests/ScaryBugsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EAEA61371957B97700CD87E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ScaryBugs.app/ScaryBugs";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScaryBugs/ScaryBugs-Prefix.pch";
+				INFOPLIST_FILE = "ScaryBugsTests/ScaryBugsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAEA60F81957B97700CD87E3 /* Build configuration list for PBXProject "ScaryBugs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAEA61301957B97700CD87E3 /* Debug */,
+				EAEA61311957B97700CD87E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAEA61321957B97700CD87E3 /* Build configuration list for PBXNativeTarget "ScaryBugs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAEA61331957B97700CD87E3 /* Debug */,
+				EAEA61341957B97700CD87E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAEA61351957B97700CD87E3 /* Build configuration list for PBXNativeTarget "ScaryBugsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAEA61361957B97700CD87E3 /* Debug */,
+				EAEA61371957B97700CD87E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAEA60F51957B97700CD87E3 /* Project object */;
+}
