@@ -32,6 +32,12 @@
 		EAEA614D1957BF1000CD87E3 /* potatoBugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAEA61451957BF1000CD87E3 /* potatoBugThumb.jpg */; };
 		EAEA614E1957BF1000CD87E3 /* wolfSpider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAEA61461957BF1000CD87E3 /* wolfSpider.jpg */; };
 		EAEA614F1957BF1000CD87E3 /* wolfSpiderThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAEA61471957BF1000CD87E3 /* wolfSpiderThumb.jpg */; };
+		EAEA61531957C0EA00CD87E3 /* RWTRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEA61521957C0EA00CD87E3 /* RWTRateView.m */; };
+		EAEA61571957C10A00CD87E3 /* RWTUIImageExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEA61561957C10A00CD87E3 /* RWTUIImageExtras.m */; };
+		EAEA615C1957C12900CD87E3 /* shockedface2_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = EAEA61591957C12900CD87E3 /* shockedface2_empty.png */; };
+		EAEA615D1957C12900CD87E3 /* shockedface2_full.png in Resources */ = {isa = PBXBuildFile; fileRef = EAEA615A1957C12900CD87E3 /* shockedface2_full.png */; };
+		EAEA615E1957C12900CD87E3 /* shockedface2_half.png in Resources */ = {isa = PBXBuildFile; fileRef = EAEA615B1957C12900CD87E3 /* shockedface2_half.png */; };
+		EAEA61601957C13500CD87E3 /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = EAEA615F1957C13500CD87E3 /* logo1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +84,14 @@
 		EAEA61451957BF1000CD87E3 /* potatoBugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBugThumb.jpg; sourceTree = "<group>"; };
 		EAEA61461957BF1000CD87E3 /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpider.jpg; sourceTree = "<group>"; };
 		EAEA61471957BF1000CD87E3 /* wolfSpiderThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpiderThumb.jpg; sourceTree = "<group>"; };
+		EAEA61511957C0EA00CD87E3 /* RWTRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTRateView.h; sourceTree = "<group>"; };
+		EAEA61521957C0EA00CD87E3 /* RWTRateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTRateView.m; sourceTree = "<group>"; };
+		EAEA61551957C10A00CD87E3 /* RWTUIImageExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTUIImageExtras.h; sourceTree = "<group>"; };
+		EAEA61561957C10A00CD87E3 /* RWTUIImageExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTUIImageExtras.m; sourceTree = "<group>"; };
+		EAEA61591957C12900CD87E3 /* shockedface2_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_empty.png; sourceTree = "<group>"; };
+		EAEA615A1957C12900CD87E3 /* shockedface2_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_full.png; sourceTree = "<group>"; };
+		EAEA615B1957C12900CD87E3 /* shockedface2_half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_half.png; sourceTree = "<group>"; };
+		EAEA615F1957C13500CD87E3 /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +151,9 @@
 		EAEA61061957B97700CD87E3 /* ScaryBugs */ = {
 			isa = PBXGroup;
 			children = (
+				EAEA61581957C11700CD87E3 /* Art */,
+				EAEA61541957C0F600CD87E3 /* Helpers */,
+				EAEA61501957C0CC00CD87E3 /* Views */,
 				EAEA61401957BF1000CD87E3 /* centipede.jpg */,
 				EAEA61411957BF1000CD87E3 /* centipedeThumb.jpg */,
 				EAEA61421957BF1000CD87E3 /* ladybug.jpg */,
@@ -206,6 +223,35 @@
 				EAEA613E1957BB3A00CD87E3 /* RWTScaryBugDoc.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		EAEA61501957C0CC00CD87E3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EAEA61511957C0EA00CD87E3 /* RWTRateView.h */,
+				EAEA61521957C0EA00CD87E3 /* RWTRateView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EAEA61541957C0F600CD87E3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EAEA61551957C10A00CD87E3 /* RWTUIImageExtras.h */,
+				EAEA61561957C10A00CD87E3 /* RWTUIImageExtras.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		EAEA61581957C11700CD87E3 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				EAEA615F1957C13500CD87E3 /* logo1.png */,
+				EAEA61591957C12900CD87E3 /* shockedface2_empty.png */,
+				EAEA615A1957C12900CD87E3 /* shockedface2_full.png */,
+				EAEA615B1957C12900CD87E3 /* shockedface2_half.png */,
+			);
+			name = Art;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,15 +332,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAEA611C1957B97700CD87E3 /* Images.xcassets in Resources */,
+				EAEA615C1957C12900CD87E3 /* shockedface2_empty.png in Resources */,
 				EAEA614C1957BF1000CD87E3 /* potatoBug.jpg in Resources */,
 				EAEA614E1957BF1000CD87E3 /* wolfSpider.jpg in Resources */,
 				EAEA614F1957BF1000CD87E3 /* wolfSpiderThumb.jpg in Resources */,
 				EAEA614B1957BF1000CD87E3 /* ladybugThumb.jpg in Resources */,
 				EAEA61481957BF1000CD87E3 /* centipede.jpg in Resources */,
 				EAEA61491957BF1000CD87E3 /* centipedeThumb.jpg in Resources */,
+				EAEA615D1957C12900CD87E3 /* shockedface2_full.png in Resources */,
 				EAEA610B1957B97700CD87E3 /* InfoPlist.strings in Resources */,
 				EAEA614D1957BF1000CD87E3 /* potatoBugThumb.jpg in Resources */,
 				EAEA614A1957BF1000CD87E3 /* ladybug.jpg in Resources */,
+				EAEA615E1957C12900CD87E3 /* shockedface2_half.png in Resources */,
+				EAEA61601957C13500CD87E3 /* logo1.png in Resources */,
 				EAEA61141957B97700CD87E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +365,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAEA613C1957BA7A00CD87E3 /* RWTScaryBugData.m in Sources */,
+				EAEA61531957C0EA00CD87E3 /* RWTRateView.m in Sources */,
+				EAEA61571957C10A00CD87E3 /* RWTUIImageExtras.m in Sources */,
 				EAEA61111957B97700CD87E3 /* RWTAppDelegate.m in Sources */,
 				EAEA613F1957BB3A00CD87E3 /* RWTScaryBugDoc.m in Sources */,
 				EAEA610D1957B97700CD87E3 /* main.m in Sources */,
